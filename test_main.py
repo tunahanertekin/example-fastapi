@@ -4,8 +4,19 @@ from main import app
 
 client = TestClient(app)
 
-
-def test_read_main():
-    response = client.get("/")
+def test1():
+    response = client.get("/test1")
     assert response.status_code == 200
-    assert response.json() == {"msg": "Hello World"}
+    assert response.json() == {"echo": "test1"}
+
+def test2():
+    response = client.get("/test2")
+    assert response.status_code == 200
+    assert response.json() == {"echo": "test2"}
+
+def test3():
+    response = client.get("/test3")
+    assert response.status_code == 200
+    assert response.json() == {"echo": "test3"}
+
+
