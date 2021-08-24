@@ -13,7 +13,7 @@ async def read_items():
     <html>
     
     <body style="background-color: black;">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet"> 
     <div id="text" style="font-size: 100;color: red;height: 100%; display: flex; justify-content: center; align-items: center; font-family: 'Rampart One', cursive;">
