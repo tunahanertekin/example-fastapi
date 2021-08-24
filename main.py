@@ -7,10 +7,6 @@ app = FastAPI()
 async def read_main(echo_str: str):
     return {"echo": echo_str}
 
-@app.get("/hry")
-async def read_main_x():
-    return {"echo": "hey"}
-
 @app.get("/", response_class=HTMLResponse)
 async def read_items():
     return """
