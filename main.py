@@ -28,7 +28,7 @@ async def read_items():
                     ASELSAN
                 </div>
                 <div id="l4">
-                    :)
+                    &nbsp; :)
                 </div>
             </div>
         </div>
