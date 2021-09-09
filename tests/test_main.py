@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from app.main import app
+from app.main import app, empty_func
 
 client = TestClient(app)
 
@@ -19,4 +19,8 @@ def test3():
     assert response.status_code == 200
     assert response.json() == {"echo": "test3"}
 
+
+def test4():
+    response = empty_func()
+    assert response == "tunahan"
 
