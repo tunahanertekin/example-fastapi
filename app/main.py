@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 def empty_func():
-    return "Tunahan"
+    return "tunahan"
 
 @app.get("/{echo_str}")
 async def read_main(echo_str: str):
