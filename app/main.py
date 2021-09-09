@@ -30,11 +30,12 @@ async def read_items():
                     ,&nbsp;
                 </div>
                 <div id="l3">
-                    ASELSAN
+                    Dünya
                 </div>
-                <div id="l4">
-                    &nbsp; :)
-                </div>
+                
+            </div>
+            <div>
+                <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
             </div>
         </div>
 
@@ -51,7 +52,6 @@ async def read_items():
                     document.getElementById("l1").style.color = getColor();
                     document.getElementById("l2").style.color = getColor();
                     document.getElementById("l3").style.color = getColor();
-                    document.getElementById("l4").style.color = getColor();
                     
                 },300)
         </script>
